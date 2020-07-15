@@ -1,0 +1,22 @@
+{
+    "require": {
+        "robmorgan/phinx": "^0.12.1",
+        "symfony/yaml": "^5.0",
+        "ext-json": "*",
+        "phalcon/incubator":"^3.4",
+        "phalcon/cli-options-parser":"^1.1@dev",
+        "vlucas/phpdotenv": "^3.6",
+        "wanfeiyy/dd": "^1.0",
+        "myclabs/php-enum": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Phalcon\\" : "vendor/phalcon/incubator"
+        }
+    },
+    "require-dev": {
+        "phalcon/ide-stubs": "^3.4",
+        "phpstan/phpstan": "^0.12.25"
+    }
+}

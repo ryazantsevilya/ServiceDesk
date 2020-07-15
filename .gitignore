@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Phalcon template
+/cache/
+/config/development/
+.env
+phinx.yml
+vendor/
+/.phalcon/
